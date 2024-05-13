@@ -1,0 +1,2 @@
+#!/bin/bash
+mongo $1 --eval 'db.school.find({"name": { $regex: /^Holberton/ }})'
